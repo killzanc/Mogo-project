@@ -368,3 +368,56 @@ transform: translate(150px, 10px);
 }
 
 
+.slider-item {
+    max-width: 978px;
+    margin: 0 auto;
+}
+
+.people{
+    background-image:url('/images/bgpople.png');
+    margin-top: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.card-body{
+    text-align: left;
+    padding: 10px 0 0 0;
+}
+.band{
+    width: 71px;
+    position: absolute;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    transform: translate(-22px, 148px);
+}
+.blog{
+    margin-bottom: 190px;
+}
+.map{
+    background-image: url("/images/map/bg-map.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px;
+}
+.show__map{
+    visibility: visible;
+    opacity: 1;
+    height: auto !important;
+    border: 2px solid #ff9c00;
+}
+.mapWrap{
+    visibility: hidden;
+    opacity: 0;
+    height: 0 !important;
+    margin-top: 20px;
+}
+.cp{
+    margin-top: 100px;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
